@@ -1,4 +1,4 @@
-# backgroundChangeWithRandomHexNumbers
+# Random HEX colors to Change BG
 Background Change with a random Hex number
 
 This personal project's goal was to create a random hex number and create a new background everytime that button is being pushed. 
