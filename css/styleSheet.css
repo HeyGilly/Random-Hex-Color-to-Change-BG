@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');  /*  google fonts   */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/*This is going to center, the button, and Text, to the middle of the screen.  */
+main {
+    min-height: calc(100vh - 3rem);
+    display: grid;
+    place-items: center;
+    -webkit-animation: fadein 2.5s; /* Animation to fadein */
+
+}
+
+/* Animation to fade in */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/*This is going to center all items in  the container,*/
+.container {
+    text-align: center;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 50));
+
+}
+
+.container h2 {
+    background: #222; /*This is going to turn the BG very dark shade of gray.*/
+    color: #fff; /*This is going to turn the TEXT white.*/
+    border-radius: 1rem;   /*This will curve the corners.*/
+    padding: 4rem;
+    margin-bottom: 2.5rem;     /* This will push the button down */
+    font-weight: 300;
+}
+
+.color{
+    color: #f1f5f8; /*  Font color of the HEX #'s in the beginning  */
+    font-weight: 700;
+}
+
+.btn-hero {
+    filter: drop-shadow(none;);
+    color: slategrey; /* This is the color of the font in the button */
+    background: transparent;  /* The BG is tansparent and you will be able to see the main BG */
+    font-size: 1rem; /*  INcrease font size  */
+    letter-spacing: 0.3rem;  /*  Spacing between letters in the button   */
+    padding: 0.75rem 1.25rem;   /*  Creates space inside button   */
+    border-radius: 0.25rem;  /*  Rounds the corners of button  */
+    text-transform: uppercase;  /*  Uppercase to the button text   */
+    font-weight: 400;  /*  The weight of the text  */
+    box-shadow: 0 1px 3px rgba(0,0,0, 0.2);  /*  give the button some drop shadow.  */
+}
+/*When you hover over the button, this is going to happen*/
+.btn-hero:hover {
+    color: #fff;
+    background-color: #222;
+};
